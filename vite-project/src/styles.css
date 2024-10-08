@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color: #23252C;
 }
 
 h1, h2, h3, p {
@@ -42,9 +42,10 @@ h1, h2, h3, p {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
     font-family: 'Inter';
+    margin-bottom: 15px;
 }
 
 .personal-info-box h1 {
@@ -64,15 +65,54 @@ h1, h2, h3, p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
     height: 40px;
     width: 80%;
     border-radius: 6px;
     font-weight: 500px;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.personal-info-box button:hover {
+    background-color: #cbced8;
 }
 
 .email-icon {
     width: 18px;
     margin-right: 10px;
+}
+
+.biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Inter';
+    margin-top: 10px;
+}
+
+.biography h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.biography p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 19px;
+    padding-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    padding-top: 15px;
+}
+
+.skills-list {
+    margin-top: 8px;
+    padding: 10;
+}
+
+.languages {
+    padding-right: 20px;
 }
